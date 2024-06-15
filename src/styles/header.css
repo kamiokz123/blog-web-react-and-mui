@@ -1,0 +1,48 @@
+.app-bar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-bar-list li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.app-bar-list li a:hover{
+    color: goldenrod;
+}
+
+
+.mobile-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.mobile-list li {
+}
+
+.mobile-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.mobile-list li a:hover{
+    color: goldenrod;
+}
+
+
+
+.active{
+    color: goldenrod !important;
+    font-weight: bold !important;
+}

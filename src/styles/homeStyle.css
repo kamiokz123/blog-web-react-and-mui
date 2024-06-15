@@ -1,0 +1,79 @@
+
+.home-main-div{
+    background-image: url("../images/banner.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+
+}
+
+.home-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.home-content-div h1{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-content-div p{
+    font-weight: 500;
+}
+
+.home-content-div button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.home-content-div button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.home-content-div button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .content-div {
+        background-color: rgba(0, 0, 0, 0.511);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .content-div h1{
+        font-size: 26px;
+        margin: 4px;
+    }
+    .content-div p{
+        font-size: 16px;
+    }
+  }
